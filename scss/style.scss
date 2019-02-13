@@ -247,7 +247,9 @@ a{
 
 
 
-
+.table_hd{
+    color: #989898;
+}
 
 
 .dashboard{
@@ -520,7 +522,13 @@ thead{
                 .navbar-toggle button:focus, .navbar-toggler{
                     outline: none;
                 }
-
+                &__profile-img{
+                    width: 3.5rem;
+                    height: 3.5rem;
+                    border-radius: 50%;
+                    background-color: gainsboro;
+                    margin-right: .5rem;
+                }
                 .under{
                     border-bottom:2px solid $customtextcolor;
                 }
@@ -671,6 +679,11 @@ thead{
 
 .tabletype{
 
+            @media only screen and (max-width: 900px) {
+                width:900px;
+                overflow-x:scroll;
+            }
+
                 a{
                     color:#333;
                 }
@@ -702,6 +715,13 @@ thead{
                         width: 10px;
                         height: 10px;
                         background-color: #2fe666;
+                        border-radius: 50%;
+                        margin-right: .5rem;
+                    }
+                    div.inactive_state{
+                        width: 10px;
+                        height: 10px;
+                        background-color: #b7c0cd;
                         border-radius: 50%;
                         margin-right: .5rem;
                     }

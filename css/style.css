@@ -189,6 +189,10 @@ body {
   padding-bottom: 48px;
 }
 
+.table_hd {
+  color: #989898;
+}
+
 .dashboard .dash {
   margin-top: 30px;
 }
@@ -544,6 +548,14 @@ body {
   outline: none;
 }
 
+.dashboard .main .main-head .nav-pan__profile-img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background-color: gainsboro;
+  margin-right: .5rem;
+}
+
 .dashboard .main .main-head .nav-pan .under {
   border-bottom: 2px solid #1fb986;
 }
@@ -708,6 +720,13 @@ body {
   background-color: #1d2834;
 }
 
+@media only screen and (max-width: 900px) {
+  .reqbody .tabletype {
+    width: 900px;
+    overflow-x: scroll;
+  }
+}
+
 .reqbody .tabletype a {
   color: #333;
 }
@@ -741,6 +760,14 @@ body {
   width: 10px;
   height: 10px;
   background-color: #2fe666;
+  border-radius: 50%;
+  margin-right: .5rem;
+}
+
+.reqbody .tabletype td div.inactive_state {
+  width: 10px;
+  height: 10px;
+  background-color: #b7c0cd;
   border-radius: 50%;
   margin-right: .5rem;
 }
